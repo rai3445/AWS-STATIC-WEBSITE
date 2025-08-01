@@ -3,7 +3,7 @@ name: Deploy Static Website to S3
 on:
   push:
     branches:
-      - main   # Change if you want to deploy from another branch
+      - main
 
 jobs:
   deploy:
@@ -18,7 +18,8 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ap-south-1   # Change to your region if different
+          aws-region: ap-south-1  # Change if your AWS region is different
 
       - name: Sync files to S3
-        run: aws s3 sync . s3://aws-static-web-ex --delete --exclude ".git/*" --exclude ".github/*"
+        run: aws s3 sync ./GHA-SW-S--main s3://aws-static-web-ex --delete
+

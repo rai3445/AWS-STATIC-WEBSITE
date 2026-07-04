@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for SEO and Responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gobind Rai - Cloud & DevOps Engineer | Building Secure & Scalable Cloud Solutions">
+    <meta name="keywords" content="Cloud Engineer, DevOps, AWS, Azure, Full Stack Developer, Portfolio">
+    <meta name="author" content="Gobind Rai">
+    <meta name="theme-color" content="#0F172A">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Gobind Rai - Cloud & DevOps Engineer Portfolio">
+    <meta property="og:description" content="Building Secure & Scalable Cloud Solutions. Explore my projects, skills, and experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gobind-portfolio.azurestaticapps.net">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%233B82F6'>G</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Gobind Rai - Cloud & DevOps Engineer Portfolio</title>
+</head>
+<body>
+    <!-- ============================================
+         SCROLL PROGRESS INDICATOR
+         ============================================ -->
+    <div class="scroll-progress"></div>
+
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <span class="logo-text">Gobind</span>
+                <span class="logo-dot">.</span>
+            </div>
+
+            <!-- Hamburger Menu for Mobile -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certification" class="nav-link">Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero" id="home">
+        <!-- Floating Background Shapes -->
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+
+        <div class="hero-container">
+            <!-- Left Content -->
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Gobind Rai</span>
+                </h1>
+                
+                <!-- Typing Animation -->
+                <div class="typing-container">
+                    <p class="typing-text">Building Secure & Scalable Cloud Solutions</p>
+                    <span class="typing-cursor">|</span>
+                </div>
+
+                <p class="hero-subtitle">
+                    Cloud & DevOps Engineer | Full Stack Developer | Tech Enthusiast
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="hero-buttons">
+                    <a href="resume.pdf" class="btn btn-primary" download>
+                        <span class="btn-icon">📥</span>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="btn-icon">💬</span>
+                        Contact Me
+                    </a>
+                    <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="btn btn-tertiary">
+                        <span class="btn-icon">🔗</span>
+                        GitHub
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gobind-rai-590515239" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:gr4153632@gmail.com" class="social-link" title="Email">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Side - Illustration Placeholder -->
+            <div class="hero-illustration">
+                <div class="illustration-card">
+                    <div class="illustration-content">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Professional Developer Illustration -->
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Head -->
+                            <circle cx="100" cy="60" r="25" fill="url(#grad1)"/>
+                            
+                            <!-- Body -->
+                            <rect x="75" y="90" width="50" height="45" rx="5" fill="url(#grad1)"/>
+                            
+                            <!-- Left Arm -->
+                            <rect x="45" y="95" width="30" height="12" rx="6" fill="url(#grad1)" transform="rotate(-30 60 101)"/>
+                            
+                            <!-- Right Arm -->
+                            <rect x="125" y="95" width="30" height="12" rx="6" fill="url(#grad1)" transform="rotate(30 140 101)"/>
+                            
+                            <!-- Left Leg -->
+                            <rect x="80" y="135" width="12" height="35" rx="6" fill="url(#grad1)"/>
+                            
+                            <!-- Right Leg -->
+                            <rect x="108" y="135" width="12" height="35" rx="6" fill="url(#grad1)"/>
+                            
+                            <!-- Code Brackets -->
+                            <text x="50" y="180" font-size="24" font-weight="bold" fill="#3B82F6">&lt;</text>
+                            <text x="130" y="180" font-size="24" font-weight="bold" fill="#3B82F6">/&gt;</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+
+            <div class="about-content">
+                <!-- About Image -->
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-icon">👨‍💻</div>
+                    </div>
+                </div>
+
+                <!-- About Text -->
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I am a <strong>Computer Science Engineering student</strong> passionate about Cloud Computing, DevOps, Linux, Networking, and Web Development. With a strong foundation in both frontend and backend technologies, I'm dedicated to creating secure, scalable, and efficient applications.
+                    </p>
+
+                    <p class="about-paragraph">
+                        My journey in tech has equipped me with hands-on experience in cloud platforms, containerization, and DevOps practices. I enjoy building solutions that not only solve problems but also demonstrate best practices in security and performance optimization.
+                    </p>
+
+                    <p class="about-paragraph">
+                        When I'm not coding, I'm learning new technologies, contributing to open-source projects, and exploring the latest advancements in cloud infrastructure and development practices. I believe in continuous learning and am always eager to take on new challenges.
+                    </p>
+
+                    <!-- Quick Stats -->
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="stat-number">5+</h3>
+                            <p class="stat-label">Languages</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">3+</h3>
+                            <p class="stat-label">Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">2+</h3>
+                            <p class="stat-label">Years Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION
+         ============================================ -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+
+            <div class="skills-grid">
+                <!-- Programming Category -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">💻</span>
+                        Programming
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend Category -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🎨</span>
+                        Frontend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Category -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">☁️</span>
+                        Cloud
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Azure</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps Category -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🚀</span>
+                        DevOps
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Networking Category -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🌐</span>
+                        Networking
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">DNS</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">DHCP</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">TCP/IP</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROJECTS SECTION
+         ============================================ -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Building amazing things with modern technologies</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="proj1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+                                        <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.3" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="300" height="200" fill="url(#proj1)"/>
+                                <text x="150" y="80" text-anchor="middle" font-size="48" font-weight="bold" fill="#3B82F6">🔐</text>
+                                <text x="150" y="130" text-anchor="middle" font-size="20" fill="#93C5FD">2FA Authentication</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flask 2FA Authentication System</h3>
+                        <p class="project-description">
+                            Developed a secure authentication system implementing Two-Factor Authentication using Flask. Features include user registration, password hashing, and OTP verification.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-btn">
+                            <span>GitHub</span>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="proj2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+                                        <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.3" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="300" height="200" fill="url(#proj2)"/>
+                                <text x="150" y="80" text-anchor="middle" font-size="48" font-weight="bold" fill="#3B82F6">☁️</text>
+                                <text x="150" y="130" text-anchor="middle" font-size="20" fill="#93C5FD">Secure Storage</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Secure File Storage System</h3>
+                        <p class="project-description">
+                            Developed a secure cloud file storage application with authentication and file management features. Includes file encryption, user permissions, and cloud integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-btn">
+                            <span>GitHub</span>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="proj3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+                                        <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.3" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="300" height="200" fill="url(#proj3)"/>
+                                <text x="150" y="80" text-anchor="middle" font-size="48" font-weight="bold" fill="#3B82F6">🌤️</text>
+                                <text x="150" y="130" text-anchor="middle" font-size="20" fill="#93C5FD">Weather Dashboard</text>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">
+                            Developed a responsive weather dashboard using API integration to display real-time weather information. Features include location search, forecast data, and weather alerts.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="project-btn">
+                            <span>GitHub</span>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         EDUCATION SECTION
+         ============================================ -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">My academic journey</p>
+
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3 class="timeline-title">B.Tech Computer Science Engineering</h3>
+                            <p class="timeline-subtitle">GNA University, Phagwara</p>
+                            <p class="timeline-description">
+                                Pursuing a comprehensive degree in Computer Science Engineering with focus on cloud computing, DevOps, and full-stack web development. Curriculum includes advanced data structures, databases, networking, and software engineering practices.
+                            </p>
+                            <span class="timeline-date">Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3 class="timeline-title">Class XII (Higher Secondary)</h3>
+                            <p class="timeline-subtitle">Science Stream</p>
+                            <p class="timeline-description">
+                                Completed senior secondary education with strong foundation in Mathematics, Physics, Chemistry, and Computer Science. Achieved 80.9% in final examinations.
+                            </p>
+                            <span class="timeline-date">Completed | 80.9%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3 class="timeline-title">Class X (Secondary)</h3>
+                            <p class="timeline-subtitle">CBSE Board</p>
+                            <p class="timeline-description">
+                                Completed secondary education with excellent academic performance. Strong grasp of fundamental concepts in Mathematics, Science, and English. Achieved 83% in final examinations.
+                            </p>
+                            <span class="timeline-date">Completed | 83%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CERTIFICATION SECTION
+         ============================================ -->
+    <section class="certification" id="certification">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional credentials and achievements</p>
+
+            <div class="certifications-grid">
+                <!-- Certification Card -->
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3 class="cert-title">AWS Fundamentals</h3>
+                    <p class="cert-issuer">Amazon Web Services</p>
+                    <p class="cert-description">
+                        Comprehensive course covering AWS core services, cloud architecture, security best practices, and hands-on experience with EC2, S3, Lambda, and RDS.
+                    </p>
+                    <div class="cert-meta">
+                        <span class="cert-status">Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's build something amazing together</p>
+
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:gr4153632@gmail.com" class="contact-link">gr4153632@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🔗</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/rai3445</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/gobind-rai-590515239" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/gobind-rai</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p class="contact-text">Available on request</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                            <span class="form-error" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit-btn">
+                            <span>Send Message</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+
+                        <div class="form-message success-message" id="successMessage">
+                            ✅ Thank you! Your message has been received.
+                        </div>
+                        <div class="form-message error-message" id="errorMessage">
+                            ❌ Oops! Please check the form and try again.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Gobind Rai</h3>
+                    <p class="footer-text">Cloud & DevOps Engineer | Full Stack Developer</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Social</h4>
+                    <div class="footer-socials">
+                        <a href="https://github.com/rai3445" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>
+                        <a href="https://www.linkedin.com/in/gobind-rai-590515239" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn</a>
+                        <a href="mailto:gr4153632@gmail.com" title="Email">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gobind Rai. All rights reserved. | Built with HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         BACK TO TOP BUTTON
+         ============================================ -->
+    <button class="back-to-top" id="backToTop" title="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
